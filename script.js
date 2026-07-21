@@ -1,5 +1,12 @@
-document.getElementById("button").onclick = function(){
+let coins = 0;
 
-    alert("Hello from JavaScript!");
+const coinDisplay = document.getElementById("coins");
+const button = document.getElementById("button");
+
+button.onclick = function(){
+
+    coins++;
+
+    coinDisplay.textContent = coins;
 
 }
