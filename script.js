@@ -8,6 +8,6 @@ button.onclick = function(){
 
     coins++;
 
-    coinDisplay.textContent = coins;
+    coinDisplay.textContent = `🪙 Coins: ${coins}`;
 
 }
