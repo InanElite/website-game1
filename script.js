@@ -1,7 +1,7 @@
 console.log("JavaScript is working");
 let coins = 0;
 
-const coinDisplay = document.getElementById("coins");
+const coinDisplay = document.getElementById("coin-counter");
 const button = document.getElementById("button0");
 
 button.onclick = function(){
