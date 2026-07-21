@@ -1,3 +1,4 @@
+console.log("JavaScript is working");
 let coins = 0;
 
 const coinDisplay = document.getElementById("coins");
